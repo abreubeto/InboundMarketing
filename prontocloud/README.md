@@ -34,3 +34,19 @@
 - Post para redes sociais: texto + foto + url curta
 - Incluir hospedagem (servidor web) 
 - Git - histórico de evolução (commits detalhados)
+
+
+# Criar conta no GitHub
+
+## Clonar o projeto
+git clone https://github.com/abreuroberto/InboundMarketing.git
+
+## Commits
+Informação de alteração
+- após testado todo seu código
+- git add *
+- git commit -m "mensagem"
+- git push (enviar alterações para o repositóriao)
+
+## GitFlow
+Fluxo do Git
