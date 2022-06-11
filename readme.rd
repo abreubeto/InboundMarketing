@@ -49,6 +49,7 @@ Informação de alteração
 ## GitFlow
 Fluxo do Git
 
+
 ### Branchs
 são ramificações / versões paralelas
 
@@ -65,5 +66,16 @@ são ramificações / versões paralelas
 
 ### merge
 Mescla de branchs
+Você pode precisar resolver conflitos manualmente
 - git merge main (merge da branch main com a atual)
 - git fetch --all (verifica no github se tem atualizações)
+
+### Pull Requests
+Mescla de branchs no repositóriao
+Permite code review
+O repositório resolve os conflitos automaticamente
+
+
+## configura o GitFlow
+git flow init
+git flow feature start {nome-da-feature}
