@@ -60,9 +60,10 @@ são ramificações / versões paralelas
 - git branch (ver as branchs e qual a ativa)
 - git checkout -b dev (cria uma branch nova e torna ela ativa)
 - git checkout main (muda de branch)
-- git fetch --all (verifica no github se tem atualizações)
+
 
 
 ### merge
 Mescla de branchs
 - git merge main (merge da branch main com a atual)
+- git fetch --all (verifica no github se tem atualizações)
