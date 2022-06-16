@@ -12,22 +12,23 @@ body {
     display: block;
     width: 100vw;
     margin: 0 auto;
+    overflow: hidden; 
 }
 
 .container {
     display: block;
     float: left;
-    padding: 20px;
-    max-width: 100%;
-    margin: 0 auto;
-    max-width: 1198px;
+    padding: 0;
+    margin: 0 40px;
+    max-width: 1198px;    
+    width: 98%;
 }
 
 header {
     background: #fff;
     display: block;
     float: left;
-    padding: 20px;
+    padding: 20px 0;
     width: 100%;
     border-bottom: 1px solid #254159;
 }
@@ -70,7 +71,7 @@ img {
 }
 
 #tenho-interesse {
-    background-color: #b8c8d6;
+    background-color: ##fff;
     width: 100%;
 }
 
@@ -82,7 +83,7 @@ img {
 
 #tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
 #tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
-    color: #385874;
+    color: #fff;
 }
 
 ol {
@@ -99,7 +100,7 @@ section {
     display: block;
     float: left;
     font-size: 1.5rem; /* equivalente a 15px */ 
-    padding: 20px;
+    padding: 20px 0;
     width: 100%;
 }
 
@@ -138,7 +139,7 @@ footer {
     background-color: #254159;  
     display: block;
     float: left;
-    padding: 20px;
+    padding: 20px 0;
     width: 100%;
 }
 
@@ -152,10 +153,6 @@ footer small {
     display: block;
 }
 
-.cognito {
-    height: 350px !important;
-    overflow: hidden !important;
-}
 
 @media (max-width: 425px) {
     section nav,
@@ -167,4 +164,94 @@ footer small {
         padding-left: 1%;
         padding-right: 1%;
     }
+}
+
+.cognit {
+    height: 200px;
+    overflow: hidden;
+}
+
+#banner {
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 60vh;
+}
+
+.legenda-container{
+    width: 30vw;
+    float: right;
+    margin: 10vh 10vh 0 0;
+}
+
+.legenda{
+    background-color: rgba(255, 255, 255, .6);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 5rem;
+}
+
+.legenda h5,
+.legenda h4{
+    color: #254159;
+    line-height: 150%;
+}
+
+.button-cta{
+    border-radius: 25px;
+    display: inline;
+    background-color: orangered;
+    color: #fff;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 4px #454545;
+    padding: 10px 15px;
+    width: auto;
+    text-decoration: none;
+    font-weight: 300;
+    float: right;
+}
+
+#saiba-mais{
+    background-color: #eaeff3;
+    padding: 40px 0px;
+}
+
+#saiba-mais p,
+#saiba-mais img {
+    width: 45%;
+    display: block;
+    float: left;
+    padding: 20px;
+}
+#saiba-mais a{
+    float: left;
+    margin: 0 20px;
+}
+
+#duvidas {
+    background-color: #91bce2 ; 
+}
+
+#duvidas a{
+    float: left;
+    margin: 0 20px;
+}
+
+#duvidas dl{
+    margin: 20px 0;
+}
+
+#duvidas dt {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+#duvidas dd {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
 }
